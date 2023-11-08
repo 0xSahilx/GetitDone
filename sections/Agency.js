@@ -2,6 +2,7 @@ import Banner from "../components/Banner";
 import Brand from "../components/Brand";
 import Testimonial from "../components/Testimonial";
 import { Title, TitleSm } from "../components/common/Title";
+import Image from "next/image";
 
 const Agency = () => {
   return (
@@ -44,7 +45,7 @@ const Agency = () => {
               </div>
             </div>
             <div className="right w-40 ml">
-              <img
+              <Image
                 src="/images/s1.jpg"
                 alt="Img"
                 className="round"
@@ -56,7 +57,7 @@ const Agency = () => {
 
           <div className="content flex">
             <div className="left w-40 py">
-              <img
+              <Image
                 src="/images/s4.jpg"
                 alt="Img"
                 className="round"

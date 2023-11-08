@@ -68,7 +68,10 @@ const Header = () => {
             >
               Contact
             </Link>
-            <button className="button-primary">book a consultation</button>
+            <a href="https://wa.me/7985179107">
+              {" "}
+              <button className="button-primary">book a consultation</button>
+            </a>
           </nav>
           <button onClick={() => setOpen(!open)}>
             {open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}

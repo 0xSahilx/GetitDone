@@ -7,6 +7,7 @@ import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Image from "next/image";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
