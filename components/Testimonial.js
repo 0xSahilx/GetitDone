@@ -61,24 +61,22 @@ const Testimonial = () => {
           </div>
           <div className="cards">
             <Slider {...settings}>
-              {testimonial.map((user) => (
-                <div>
-                  <div className="card">
-                    <div className="image">
-                      <div className="img">
-                        <img src={user.cover} alt="" />
-                      </div>
-                      <div className="img-text">
-                        <h3>{user.name}</h3>
-                        <span>{user.post}</span>
-                      </div>
+              {testimonial.map((user, index) => (
+                <div key={index} className="card">
+                  <div className="image">
+                    <div className="img">
+                      <Image src={user.cover} width={100} height={100} alt="" />
                     </div>
-                    <div className="details">
-                      <p>{user.desc}</p>
-                      <Link href="/#">
-                        VIEW CASE <HiOutlineArrowRight className="link-icon" />
-                      </Link>
+                    <div className="img-text">
+                      <h3>{user.name}</h3>
+                      <span>{user.post}</span>
                     </div>
+                  </div>
+                  <div className="details">
+                    <p>{user.desc}</p>
+                    <Link href="/#">
+                      VIEW CASE <HiOutlineArrowRight className="link-icon" />
+                    </Link>
                   </div>
                 </div>
               ))}

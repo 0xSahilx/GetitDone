@@ -8,7 +8,7 @@ export const Card = ({ data, caption, show, path }) => {
     <>
       <div className="card">
         <div className="card-img">
-          <Image src={data.cover} alt={data.title} />
+          <Image src={data.cover} alt={data.title} width={100} height={100} />
         </div>
         <div className="card-details">
           <Link href={`${path}/${data.id}`} className="title-link">

@@ -17,8 +17,8 @@ const Brand = () => {
                 <Image
                   src={item.cover}
                   alt={item.id}
-                  width="100%"
-                  height="100%"
+                  width={100}
+                  height={100}
                 />
               </div>
             ))}
