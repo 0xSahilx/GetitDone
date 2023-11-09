@@ -65,7 +65,12 @@ const Testimonial = () => {
                 <div key={index} className="card">
                   <div className="image">
                     <div className="img">
-                      <Image src={user.cover} width={100} height={100} alt="" />
+                      <Image
+                        src={user.cover}
+                        width={100}
+                        height={100}
+                        alt="img"
+                      />
                     </div>
                     <div className="img-text">
                       <h3>{user.name}</h3>

@@ -12,11 +12,11 @@ const Brand = () => {
             <Title title="WE ARE PROUD TO WORK WITH THESE COMPANIES" />
           </div>
           <div className="brand-content grid-6 py">
-            {brand.map((item) => (
-              <div className="images" key={item.id}>
+            {brand.map((data) => (
+              <div className="images" key={data.id}>
                 <Image
-                  src={item.cover}
-                  alt={item.id}
+                  src={data.cover}
+                  alt={data.id}
                   width={100}
                   height={100}
                 />

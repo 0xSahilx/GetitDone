@@ -1,4 +1,5 @@
 import Link from "next/link";
+Image;
 import { TitleSm } from "./Title";
 import { HiOutlineArrowRight } from "react-icons/hi";
 import Image from "next/image";

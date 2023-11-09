@@ -49,8 +49,8 @@ const Agency = () => {
                 src="/images/s1.jpg"
                 alt="Img"
                 className="round"
-                width="100%"
-                height="100%"
+                width={100}
+                height={100}
               />
             </div>
           </div>
@@ -61,8 +61,8 @@ const Agency = () => {
                 src="/images/s4.jpg"
                 alt="Img"
                 className="round"
-                width="100%"
-                height="100%"
+                width={100}
+                height={100}
               />
             </div>
             <div className="right w-60 ml">
