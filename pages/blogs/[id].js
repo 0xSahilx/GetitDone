@@ -1,4 +1,4 @@
-import { blogdata } from "../assets/data/dummydata";
+import { blogdata } from "../../assets/data/dummydata";
 import Banner from "../components/Banner";
 import { Title, TitleSm } from "../components/common/Title";
 import Head from "next/head";
