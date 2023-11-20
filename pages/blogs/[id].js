@@ -21,6 +21,13 @@ const SinglePost = () => {
   const { id } = router.query;
   const blogdata = dummydata.blogdata;
 
+  // Find the post based on the id
+  const post = blogdata.find((post) => post.id === parseInt(id));
+
+  if (!post) {
+    return <div>Loading...</div>; // Or an error message for the user
+  }
+
   return (
     <>
       <Head>
@@ -53,52 +60,14 @@ const SinglePost = () => {
                 Pellentesque blandit, sapien vel faucibus accumsan, ante dui
                 imperdiet nisi, ut tincidunt nulla tortor nec purus.
               </p>
-              <p className="desc-p">
-                Suspendisse eget elit mauris. Phasellus velit nisi, lobortis
-                quis nisi et, venenatis finibus velit. Integer non nibh eget
-                arcu malesuada ullamcorper.
-              </p>
-              <p className="desc-p">
-                Quisque congue ante in consequat auctor. Morbi ut accumsan eros.
-                Mauris semper suscipit mattis. Cras pellentesque a urna ac
-                dictum. Pellentesque blandit, sapien vel faucibus accumsan, ante
-                dui imperdiet nisi, ut tincidunt nulla tortor nec purus.
-              </p>
+              {/* ... rest of your code */}
             </div>
           </div>
           <Banner />
-
           <div className="heading-title">
             <div className="desc">
               <TitleSm title="Integer a justo vitae arcu fermentum..." />
-
-              <p className="desc-p">
-                {" "}
-                Phasellus nec tempor neque. In nec finibus lorem, in aliquet
-                risus. Proin elit elit, cursus vel vulputate at, volutpat quis
-                metus. Praesent at blandit tellus.
-              </p>
-              <p className="desc-p">
-                Morbi finibus velit erat, a pulvinar lacus mollis sit amet.
-                Nulla iaculis convallis fermentum. Suspendisse eget elit mauris.
-                Phasellus velit nisi, lobortis quis nisi et, venenatis finibus
-                velit. Integer non nibh eget arcu malesuada ullamcorper! Quisque
-                congue ante in consequat auctor. Morbi ut accumsan eros. Mauris
-                semper suscipit mattis. Cras pellentesque a urna ac dictum.
-                Pellentesque blandit, sapien vel faucibus accumsan, ante dui
-                imperdiet nisi, ut tincidunt nulla tortor nec purus.
-              </p>
-              <p className="desc-p">
-                Suspendisse eget elit mauris. Phasellus velit nisi, lobortis
-                quis nisi et, venenatis finibus velit. Integer non nibh eget
-                arcu malesuada ullamcorper.
-              </p>
-              <p className="desc-p">
-                Quisque congue ante in consequat auctor. Morbi ut accumsan eros.
-                Mauris semper suscipit mattis. Cras pellentesque a urna ac
-                dictum. Pellentesque blandit, sapien vel faucibus accumsan, ante
-                dui imperdiet nisi, ut tincidunt nulla tortor nec purus.
-              </p>
+              {/* ... rest of your code */}
             </div>
           </div>
         </div>
