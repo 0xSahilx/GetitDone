@@ -25,7 +25,7 @@ export const expertise = [
   {
     id: 1,
     title: "Web Design & Development",
-    cover: "/images/e1.jpg",
+    cover: "/images/e1.svg",
     width: "100%",
     height: "100%",
     desc: [
@@ -131,7 +131,7 @@ export const showcase = [
     catgeory: "BRANDING	",
   },
   {
-    id: 5,
+    id: 6,
     title: "VR Experience",
     cover: "/images/s6.jpg",
     catgeory: "WEBSITES	",
@@ -174,7 +174,7 @@ export const blogdata = [
   {
     id: 2,
     title: "Don’t underestimate the lorem ipsum dolor amet",
-    cover: "/images/b2.jpg",
+    cover: "/images/b2.svg",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 20, 2023",
   },

@@ -1,5 +1,4 @@
 import Link from "next/link";
-Image;
 import { TitleSm } from "./Title";
 import { HiOutlineArrowRight } from "react-icons/hi";
 import Image from "next/image";
@@ -9,7 +8,13 @@ export const Card = ({ data, caption, show, path }) => {
     <>
       <div className="card">
         <div className="card-img">
-          <Image src={data.cover} alt={data.title} width={100} height={100} />
+          <Image
+            src={data.cover}
+            alt={data.title}
+            width={100}
+            height={100}
+            quality={80}
+          />
         </div>
         <div className="card-details">
           <Link href={`${path}/${data.id}`} className="title-link">

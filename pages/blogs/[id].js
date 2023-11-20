@@ -1,15 +1,25 @@
-import { blogdata } from "../../assets/data/dummydata";
-import Banner from "../components/Banner";
-import { Title, TitleSm } from "../components/common/Title";
+// import { blogdata } from "../../assets/data/dummydata";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
 import Image from "next/image";
+import Banner from "../../components/Banner";
+import { Title, TitleSm } from "../../components/common/Title";
+
+// const SinglePost = () => {
+//   const router = useRouter();
+//   const { id } = router.query;
+//   const post = blogdata.find((post) => post.id === parseInt(id));
+
+//   if (!post) {
+//     return <div>Loading...</div>; // Or an error message for the user
+//   }
+const dummydata = require("../../assets/data/dummydata");
 
 const SinglePost = () => {
   const router = useRouter();
   const { id } = router.query;
-  const post = blogdata.find((post) => post.id === parseInt(id));
+  const blogdata = dummydata.blogdata;
 
   return (
     <>

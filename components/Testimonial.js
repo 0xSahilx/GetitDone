@@ -70,6 +70,7 @@ const Testimonial = () => {
                         width={100}
                         height={100}
                         alt="img"
+                        quality={100}
                       />
                     </div>
                     <div className="img-text">
