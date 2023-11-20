@@ -45,19 +45,22 @@
 
   @media screen and (max-width: 768px) {
     height: auto;
-    padding: $xl-6 $xl-4;
+    padding: $xl-5 $xl-4;
     padding-top: $xll-3;
 
     .hero-title {
-      font-size: $xl-5;
+      font-size: $xl-6;
       line-height: 1.2;
+      padding-top: $xll-2;
     }
 
     .sub-heading {
-      flex-wrap: wrap;
+      flex-direction: column;
+      padding-top: $xll-2;
 
       .titleSm {
         margin: 0 $xl-1 0 0;
+        font-size: $xl-4;
       }
     }
   }
@@ -84,6 +87,7 @@
     }
   }
 }
+
 
 // expertise
 .expertise {
