@@ -17,18 +17,19 @@ const Footer = () => {
               <TitleLogo title="itDone" caption="Get" className="logobg" />
               <br />
               <span>
-                Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
+                Questions? Reach us <br />
               </span>
+              
               <br />
-              <br />
-              <h3>+1 001 234 5678</h3>
+              <h3>+91 7985179107</h3>
+              <h3>+91 7897664959</h3>
               <br />
               <button className="button-primary">Request for quote</button>
             </div>
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href="/">About agency</Link>
+                <Link href="sections/Agency.js">About agency</Link>
               </li>
               <li>
                 <Link href="/">Our team</Link>
@@ -80,7 +81,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="https://www.linkedin.com/company/getitdonee/?viewAsMember=true">
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
@@ -89,7 +90,7 @@ const Footer = () => {
           </div>
           <div className="legal connect py">
             <div className="text">
-              <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
+              <span>© 2023 GetitDone. ALL RIGHTS RESERVED.</span>
             </div>
             <div className="connect">
               <span>GORKCODER COMPANY</span>

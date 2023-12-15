@@ -55,7 +55,7 @@ export const expertise = [
       { text: "E-Commerce website design" },
       { text: "WooCommerce" },
       { text: "Content management" },
-      { text: "Hosting" },
+      { text: "Merch Designing" },
     ],
   },
   {
@@ -66,23 +66,24 @@ export const expertise = [
       { text: "Visual identity" },
       { text: "Branding for social media" },
       { text: "Custom illustrations" },
+      { text: "Online presence on platforms like Linkedin, Instagram, etc." },
     ],
   },
 ];
 export const testimonial = [
   {
     id: 1,
-    name: "Alexander Black",
-    cover: "/images/e1.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    name: "Adhvet Sharma",
+    cover: "qk1.svg",
+    post: "Quikart - CEO",
+    desc: "Working with Getitdone has been a game-changer for Quikart. Being the Founder and CEO, I've witnessed firsthand their exceptional commitment to helping us establish a robust online presence. From crafting a visually stunning website to implementing effective social media strategies, Getitdone showcased a level of credibility and professionalism that stood out.",
   },
   {
     id: 2,
-    name: "Diana Green",
+    name: "Ajay",
     cover: "/images/e2.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    post: "StageSplash - Founder & CEO",
+    desc: "I appreciate the dedication and flexibility Getidone brought to the table. Getitdone not only delivered a dynamic and visually compelling website for StageSplash but also proved to be exceptionally adaptable throughout the process. Their team's ability to understand our unique needs and translate them into an engaging online platform was impressive",
   },
   {
     id: 3,
@@ -102,8 +103,9 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    title: "Neon Lights",
+    title: "E-cell IIT Patna",
     cover: "/images/s1.jpg",
+    
     catgeory: "DIGITAL MARKETING",
   },
   {
@@ -166,15 +168,15 @@ export const brand = [
 export const blogdata = [
   {
     id: 1,
-    title: "Ligula vel urna accumsan placerat",
-    cover: "/images/b1.webp",
+    title: "Becoming a SEO analyst.",
+    cover: "",
     catgeory: "INDUSTRY",
     date: "JANUARY 12, 2023",
   },
   {
     id: 2,
-    title: "Don’t underestimate the lorem ipsum dolor amet",
-    cover: "/images/b2.svg",
+    title: "Indian consumers are spending 52% of their time on open internet.",
+    cover: "",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 20, 2023",
   },
@@ -182,14 +184,14 @@ export const blogdata = [
     id: 3,
     title:
       "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
-    cover: "/images/b3.jpg",
+    cover: "",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 9, 2023",
   },
   {
     id: 4,
     title: "What eleifend posuere tincidunt",
-    cover: "/images/b4.jpg",
+    cover: "",
     catgeory: "EVENTS",
     date: "OCTOBER 8, 2023",
   },
@@ -197,33 +199,33 @@ export const blogdata = [
 export const teamdata = [
   {
     id: 1,
-    title: "Alexander Black",
+    title: "Kanahia",
     cover: "/images/t1.jpg",
-    post: "FOUNDER, CEO",
+    post: "Web and App Developer",
   },
   {
     id: 2,
-    title: "Anna Kovalenko",
+    title: "Pradhuman",
     cover: "/images/t2.jpg",
-    post: "FINANCE DIRECTOR",
+    post: "Video Editor",
   },
   {
     id: 3,
-    title: "Tiffany White",
+    title: "Kunjal Singh",
     cover: "/images/t3.jpg",
-    post: "CREATIVE DIRECTOR",
+    post: "UI/UX expert",
   },
   {
     id: 4,
-    title: "Richard Greenwood",
+    title: "Harpranav Singh",
     cover: "/images/t4.jpg",
-    post: "PROGRAMMER",
+    post: "Developer",
   },
   {
     id: 5,
-    title: "Jessica Brown",
+    title: "Sahil Lodu",
     cover: "/images/t5.jpg",
-    post: "MARKETING DIRECTOR",
+    post: "Web Developer and Designer",
   },
   {
     id: 6,

@@ -11,9 +11,7 @@ const Expertise = () => {
           <div className="heading-title">
             <Title title="Our expertise" />
             <p>
-              Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac
-              volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula
-              at, molestie dolor.
+            Our diverse expertise is dedicated to making a lasting impact on your audience.
             </p>
           </div>
           <div className="hero-content grid-4">
