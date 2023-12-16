@@ -1,9 +1,11 @@
-import Link from "next/link";
 import { TitleSm } from "./Title";
 import { HiOutlineArrowRight } from "react-icons/hi";
 import Image from "next/image";
+import Link from "next/link";
 
 export const Card = ({ data, caption, show, path }) => {
+  const websiteUrl = data.url || `${path}/${data.id}`;
+
   return (
     <>
       <div className="card">
@@ -17,16 +19,16 @@ export const Card = ({ data, caption, show, path }) => {
           />
         </div>
         <div className="card-details">
-          <Link href={`${path}/${data.id}`} className="title-link">
+          <Link href={websiteUrl} passHref>
             <TitleSm title={data.title} />
           </Link>
           {caption && (
-            <Link href={`${path}/${data.id}`}>
+            <Link href={websiteUrl} passHref>
               {caption} <HiOutlineArrowRight className="link-icon" />
             </Link>
           )}
           <div className="flex">
-            <span> {data.catgeory} </span>{" "}
+            <span> {data.category} </span>{" "}
             {data.date && <span> / {data.date}</span>}
           </div>
 

@@ -2,6 +2,7 @@ import { AiOutlineCalendar } from "react-icons/ai";
 import { TfiRulerPencil } from "react-icons/tfi";
 import { VscFileSubmodule } from "react-icons/vsc";
 import { BiUser } from "react-icons/bi";
+import Link from "next/link";
 
 export const home = [
   {
@@ -25,7 +26,7 @@ export const expertise = [
   {
     id: 1,
     title: "Web Design & Development",
-    cover: "/images/e1.svg",
+    cover: "/images/wd3.jpeg",
     width: "100%",
     height: "100%",
     desc: [
@@ -39,7 +40,7 @@ export const expertise = [
   {
     id: 2,
     title: "Digital Marketing",
-    cover: "/images/e2.jpg",
+    cover: "/images/dm3.jpeg",
     desc: [
       { text: "Social media marketing" },
       { text: "Marketing campaigns" },
@@ -50,7 +51,7 @@ export const expertise = [
   {
     id: 3,
     title: "UI/UX Design",
-    cover: "/images/e3.jpg",
+    cover: "/images/ui2.jpeg",
     desc: [
       { text: "E-Commerce website design" },
       { text: "WooCommerce" },
@@ -81,7 +82,7 @@ export const testimonial = [
   {
     id: 2,
     name: "Ajay",
-    cover: "/images/e2.jpg",
+    cover: "/images/ss.png",
     post: "StageSplash - Founder & CEO",
     desc: "I appreciate the dedication and flexibility Getidone brought to the table. Getitdone not only delivered a dynamic and visually compelling website for StageSplash but also proved to be exceptionally adaptable throughout the process. Their team's ability to understand our unique needs and translate them into an engaging online platform was impressive",
   },
@@ -100,43 +101,58 @@ export const testimonial = [
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
 ];
+
+
 export const showcase = [
   {
     id: 1,
     title: "E-cell IIT Patna",
-    cover: "/images/s1.jpg",
+    cover: "/images/ec.png",
+    width:"50%",
+    url:"https://ecell-beta.vercel.app/",
+    
+   
+   
     
     catgeory: "DIGITAL MARKETING",
   },
+  
   {
     id: 2,
-    title: "Futuristic Furniture",
+    title: "Anwesha IITP",
     catgeory: "WEBSITES",
-    cover: "/images/s2.jpg",
+    url:"https://anweshaaa.vercel.app/",
+    
+    cover: "/images/an.png",
   },
   {
     id: 3,
-    title: "Smart Living",
-    cover: "/images/s3.jpg",
+    title: "Njack IITP",
+    cover: "/images/nk.png",
+    url:"https://njackwebsite.vercel.app/",
+   
     catgeory: "WEBSITES",
   },
   {
     id: 4,
-    title: "Light Painting",
-    cover: "/images/s4.jpg",
-    catgeory: "BRANDING	",
+    title: "Portfolio",
+    cover: "/images/pf.png",
+    catgeory: "Website",
+    url:"https://shanzal-sidhiqui.vercel.app/",
   },
   {
     id: 5,
-    title: "Ideabox",
-    cover: "/images/s5.jpg",
-    catgeory: "BRANDING	",
+    title: "Merch Designing",
+    cover: "/images/design1.png",
+    catgeory: "Ui/UX",
+    url:"https://www.instagram.com/p/CyytHbWy6Uu/?igshid=MTc4MmM1YmI2Ng==",
   },
   {
     id: 6,
     title: "VR Experience",
-    cover: "/images/s6.jpg",
-    catgeory: "WEBSITES	",
+    cover: "/images/photu2.png",
+    catgeory: "Design",
+    url:"https://dmahez.gmetri.com/xr_experience",
   },
 ];
 export const brand = [
@@ -200,38 +216,38 @@ export const teamdata = [
   {
     id: 1,
     title: "Kanahia",
-    cover: "/images/t1.jpg",
+    cover: "/images/ka.jpeg",
     post: "Web and App Developer",
   },
   {
     id: 2,
     title: "Pradhuman",
-    cover: "/images/t2.jpg",
+    cover: "/images/pr.jpg",
     post: "Video Editor",
   },
   {
     id: 3,
     title: "Kunjal Singh",
-    cover: "/images/t3.jpg",
+    cover: "/images/k.jpeg",
     post: "UI/UX expert",
   },
   {
     id: 4,
-    title: "Harpranav Singh",
-    cover: "/images/t4.jpg",
-    post: "Developer",
+    title: "Krishna Rathore",
+    cover: "/images/krs.jpeg",
+    post: "Design Head",
   },
   {
     id: 5,
-    title: "Sahil Lodu",
-    cover: "/images/t5.jpg",
-    post: "Web Developer and Designer",
+    title: "Shuchi",
+    cover: "/images/sh.jpg",
+    post: "Web Designer",
   },
   {
     id: 6,
-    title: "Gregory Windstorm",
+    title: "Sahil Lodu",
     cover: "/images/t6.jpg",
-    post: "ACCOUNTING MANAGER",
+    post: "Web Developer",
   },
   {
     id: 7,
