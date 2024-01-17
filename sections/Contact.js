@@ -30,7 +30,7 @@ const Contact = () => {
                 </div>
                 <div className="box">
                   <IoLocationOutline size={30} className="icons" />
-                  <h3>New York</h3>
+                  <h3>India</h3>
                   <span>IIT Patna, Uttar Pradesh</span>
                 </div>
                 <div className="box">
