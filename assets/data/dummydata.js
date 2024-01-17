@@ -3,6 +3,7 @@ import { TfiRulerPencil } from "react-icons/tfi";
 import { VscFileSubmodule } from "react-icons/vsc";
 import { BiUser } from "react-icons/bi";
 import Link from "next/link";
+import Banner from "./../../components/Banner";
 
 export const home = [
   {
@@ -181,16 +182,80 @@ export const blogdata = [
   {
     id: 1,
     title: "Becoming a SEO analyst.",
-    cover: "",
+    cover: "/images/seo.jpeg",
     catgeory: "INDUSTRY",
     date: "JANUARY 12, 2023",
+    content: `
+    <div>
+    <p 
+    Contrary to what many believe, of the 307 hours that an average
+    consumer spends online per month, less than half of that is
+    spent on social media, User Generated Content (UGC) platforms
+    and live game streaming. Media habits in India have changed. In
+    the latest report by The Trade Desk, consumers in India are 
+    spending 52 per cent of their time on the open internet, beyond
+    the traditional search, social media and UGC platforms that
+    marketers are so familiar with. Meet the Open Internet Even
+    though social media and UGC platforms have gained large numbers
+    of users over the past decade, the open internet has flourished
+    equally with the advent of new media channels, such as
+    over-the-top (OTT) and CTV (connected TV) video streaming and
+    music streaming.
+  </p>
+
+  <p>
+    The open internet maximises user engagements.
+    <p>Consumers are</p>
+    <li>
+      19 per cent more likely to find ads on news/websites less
+      intrusive
+    </li>
+    <li>
+      compared to social media Consumers are 22 per cent more likely
+      to recall ads on OTT/CTV
+    </li>
+    <li>
+      compared to YouTube Premium content on the open internet
+      offers greater brand impact Consumers are 33 per cent more
+      likely to view ads on OTT/CTV as more premium
+    </li>
+    <li>
+      compared to YouTube Consumers are 17 per cent more likely to
+      purchase products advertisers on news/websites, compared to
+      social media
+    </li>
+    <p>
+      <a href="https://blog.hubspot.com/marketing/become-seo-expert">
+        Read More..
+      </a>
+    </p>
+  </p> 
+  </div>`,
   },
   {
     id: 2,
     title: "Indian consumers are spending 52% of their time on open internet.",
-    cover: "",
+    cover: "/images/52percent.cms",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 20, 2023",
+    content: `
+    <div>
+      <p>
+        According to recent trends, Indian consumers are increasingly dedicating their time to the open internet. This shift in behavior is notable, considering that the open internet includes a diverse range of online activities, such as news and general websites, over-the-top (OTT) and connected TV (CTV), music streaming, and online gaming.
+      </p>
+
+      <p>
+        In a digital landscape where social media and user-generated content (UGC) platforms have been dominant, this report highlights a significant change. The open internet now reaches almost 600 million consumers in India, encompassing nearly every internet user in the country.
+      </p>
+
+      <p>
+        As consumers explore various online channels, marketers need to adapt their strategies to effectively engage with audiences on the open internet. Understanding these shifting patterns is crucial for staying relevant and maximizing brand impact in the evolving digital landscape.
+      </p>
+
+      <p>
+        <a href="https://government.economictimes.indiatimes.com/news/digital-india/indian-consumers-are-spending-52-of-their-time-on-open-internet-report/101378454#:~:text=2%20min%20read-,Indian%20consumers%20are%20spending%2052%25%20of%20their%20time%20on%20open,every%20internet%20user%20in%20India.">Read More..</a>
+      </p>
+    </div>`,
   },
   // {
   //   id: 3,
@@ -270,6 +335,6 @@ export const teamdata = [
     title: "Join our team!",
     cover: "/images/t8.jpg",
     post: "Now",
-    url: "",
+    url: "https://forms.gle/Skjso3amBqs3Djfu5",
   },
 ];

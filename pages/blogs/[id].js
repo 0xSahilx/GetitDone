@@ -36,28 +36,47 @@ const SinglePost = () => {
       <section className="post-details bg-top">
         <div className="container">
           <div className="heading-title">
-            <TitleSm title="TIPS & TRICKS / December 9th, 2023" /> <br />
+            <TitleSm title={`${post.catgeory} / ${post.date}`} /> <br />
             <br />
             <Title title={post.title} className="title-bg" />
             <div className="img py">
               <Image
                 src={post.cover}
                 alt={post.title}
-                width="100%"
-                height="100%"
+                width={100}
+                height={100}
                 className="round"
               />
             </div>
-            <div className="desc">
-              <TitleSm title="The open internet — comprising news and general websites, over-the-top (OTT) and connected TV (CTV), music streaming and online gaming — reaches almost 600 million consumers, which equates to nearly every internet user in India" />
-              <p className="desc-p">
+            <div
+              className="desc"
+              dangerouslySetInnerHTML={{ __html: post.content }}
+            />
+          </div>
+          <Banner />
+          {/* ... rest of your code */}
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default SinglePost;
+
+{
+  /* <TitleSm title="The open internet — comprising news and general websites, over-the-top (OTT) and connected TV (CTV), music streaming and online gaming — reaches almost 600 million consumers, which equates to nearly every internet user in India" /> */
+}
+{
+  /* <p className="desc-p">
                 {" "}
                 Contrary to what many believe, of the 307 hours that an average
                 consumer spends online per month, less than half of that is
                 spent on social media, User Generated Content (UGC) platforms
                 and live game streaming. Media habits in India have changed. In
-                the latest report by The Trade Desk, consumers in India are
-                spending 52 per cent of their time on the open internet, beyond
+                the latest report by The Trade Desk, consumers in India are */
+}
+{
+  /* spending 52 per cent of their time on the open internet, beyond
                 the traditional search, social media and UGC platforms that
                 marketers are so familiar with. Meet the Open Internet Even
                 though social media and UGC platforms have gained large numbers
@@ -93,22 +112,9 @@ const SinglePost = () => {
                     Read More..
                   </a>
                 </p>
-              </p>
+              </p> */
+}
 
-              {/* ... rest of your code */}
-            </div>
-          </div>
-          <Banner />
-          <div className="heading-title">
-            <div className="desc">
-              <TitleSm title="" />
-              {/* ... rest of your code */}
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
-  );
-};
-
-export default SinglePost;
+{
+  /* ... rest of your code */
+}
