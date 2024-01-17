@@ -269,7 +269,7 @@ export const teamdata = [
     id: 9,
     title: "Join our team!",
     cover: "/images/t8.jpg",
-    post: "",
+    post: "Now",
     url: "",
   },
 ];
