@@ -68,7 +68,7 @@ const Header = () => {
             >
               Contact
             </Link>
-            <a href="https://wa.me/7985179107">
+            <a href="https://forms.gle/ojSiNAXpE5HwNQwY9">
               {" "}
               <button className="button-primary">book a consultation</button>
             </a>

@@ -153,9 +153,9 @@
 //showcase
 .showcase {
   .card-img {
-    height: 250px;
-    width: 350px;
-    quality:100;
+    height: 200px;
+    width: 440px;
+    
   }
   .links {
     @include flex(none, flex-end, none);
@@ -279,7 +279,7 @@ footer {
 
 .showcase {
   img {
-    width: 300px;
+    width: 100px;
   }
   .btn {
     @include flex(center, center, none);
@@ -373,7 +373,7 @@ footer {
       }
       .card-details {
         width: 100%;
-        padding: 0;
+        padding: 5px;
       }
     }
   }

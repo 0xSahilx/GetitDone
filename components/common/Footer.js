@@ -19,12 +19,14 @@ const Footer = () => {
               <span>
                 Questions? Reach us <br />
               </span>
-              
+
               <br />
               <h3>+91 7985179107</h3>
               <h3>+91 7897664959</h3>
               <br />
-              <button className="button-primary">Request for quote</button>
+              <a href="https://forms.gle/ojSiNAXpE5HwNQwY9">
+                <button className="button-primary">Request for quote</button>
+              </a>
             </div>
             <ul>
               <h3>COMPANY</h3>
@@ -50,16 +52,16 @@ const Footer = () => {
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href="/">Web Design & Development</Link>
+                <Link href="/showcase">Web Design & Development</Link>
               </li>
               <li>
-                <Link href="/">Branding & Creative Services</Link>
+                <Link href="/showcase">Branding & Creative Services</Link>
               </li>
               <li>
-                <Link href="/">Digital Marketing</Link>
+                <Link href="/showcase">Digital Marketing</Link>
               </li>
               <li>
-                <Link href="/">E-Commerce</Link>
+                <Link href="/showcase">E-Commerce</Link>
               </li>
             </ul>
             <ul>

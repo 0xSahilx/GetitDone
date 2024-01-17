@@ -102,35 +102,31 @@ export const testimonial = [
   },
 ];
 
-
 export const showcase = [
   {
     id: 1,
     title: "E-cell IIT Patna",
     cover: "/images/ec.png",
-    width:"50%",
-    url:"https://ecell-beta.vercel.app/",
-    
-   
-   
-    
+    width: "50%",
+    url: "https://ecell-beta.vercel.app/",
+
     catgeory: "DIGITAL MARKETING",
   },
-  
+
   {
     id: 2,
     title: "Anwesha IITP",
     catgeory: "WEBSITES",
-    url:"https://anweshaaa.vercel.app/",
-    
+    url: "https://anweshaaa.vercel.app/",
+
     cover: "/images/an.png",
   },
   {
     id: 3,
     title: "Njack IITP",
     cover: "/images/nk.png",
-    url:"https://njackwebsite.vercel.app/",
-   
+    url: "https://njackwebsite.vercel.app/",
+
     catgeory: "WEBSITES",
   },
   {
@@ -138,21 +134,21 @@ export const showcase = [
     title: "Portfolio",
     cover: "/images/pf.png",
     catgeory: "Website",
-    url:"https://shanzal-sidhiqui.vercel.app/",
+    url: "https://shanzal-sidhiqui.vercel.app/",
   },
   {
     id: 5,
     title: "Merch Designing",
     cover: "/images/design1.png",
     catgeory: "Ui/UX",
-    url:"https://www.instagram.com/p/CyytHbWy6Uu/?igshid=MTc4MmM1YmI2Ng==",
+    url: "https://www.instagram.com/p/CyytHbWy6Uu/?igshid=MTc4MmM1YmI2Ng==",
   },
   {
     id: 6,
     title: "VR Experience",
     cover: "/images/photu2.png",
     catgeory: "Design",
-    url:"https://dmahez.gmetri.com/xr_experience",
+    url: "https://dmahez.gmetri.com/xr_experience",
   },
 ];
 export const brand = [
@@ -196,21 +192,21 @@ export const blogdata = [
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 20, 2023",
   },
-  {
-    id: 3,
-    title:
-      "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
-    cover: "",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 9, 2023",
-  },
-  {
-    id: 4,
-    title: "What eleifend posuere tincidunt",
-    cover: "",
-    catgeory: "EVENTS",
-    date: "OCTOBER 8, 2023",
-  },
+  // {
+  //   id: 3,
+  //   title:
+  //     "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
+  //   cover: "",
+  //   catgeory: "TIPS & TRICKS",
+  //   date: "OCTOBER 9, 2023",
+  // },
+  // {
+  //   id: 4,
+  //   title: "What eleifend posuere tincidunt",
+  //   cover: "",
+  //   catgeory: "EVENTS",
+  //   date: "OCTOBER 8, 2023",
+  // },
 ];
 export const teamdata = [
   {
@@ -218,47 +214,62 @@ export const teamdata = [
     title: "Kanahia",
     cover: "/images/ka.jpeg",
     post: "Web and App Developer",
+    url: "https://www.linkedin.com/in/kanahia-kaushal-9850bb253/",
   },
   {
     id: 2,
     title: "Pradhuman",
     cover: "/images/pr.jpg",
     post: "Video Editor",
+    url: "https://www.linkedin.com/in/pradhuman-nayak-245148202/",
   },
   {
     id: 3,
     title: "Kunjal Singh",
     cover: "/images/k.jpeg",
     post: "UI/UX expert",
+    url: "",
   },
   {
     id: 4,
     title: "Krishna Rathore",
     cover: "/images/krs.jpeg",
     post: "Design Head",
+    url: "https://www.linkedin.com/in/kr005/",
   },
   {
     id: 5,
     title: "Shuchi",
     cover: "/images/sh.jpg",
     post: "Web Designer",
+    url: "https://www.linkedin.com/in/shuchi-saxena-9539b8284/",
   },
   {
     id: 6,
-    title: "Sahil Lodu",
+    title: "Sahil",
     cover: "/images/t6.jpg",
     post: "Web Developer",
+    url: "",
   },
   {
     id: 7,
-    title: "Anna Red",
+    title: "Shanzal",
     cover: "/images/t7.jpg",
     post: "PROJECT MANAGER",
+    url: "",
   },
   {
     id: 8,
+    title: "shambhvi",
+    cover: "/images/t7.jpg",
+    post: "PROJECT MANAGER",
+    url: "",
+  },
+  {
+    id: 9,
     title: "Join our team!",
     cover: "/images/t8.jpg",
     post: "",
+    url: "",
   },
 ];
