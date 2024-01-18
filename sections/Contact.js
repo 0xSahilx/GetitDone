@@ -1,5 +1,5 @@
 import { Title, TitleSm } from "../components/common/Title";
-import React from "react";
+import React, { useState } from "react";
 import {
   AiFillBehanceCircle,
   AiFillInstagram,
@@ -11,6 +11,59 @@ import { FiHeadphones, FiHelpCircle } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    budget: "",
+    timeframe: "",
+    projectDescription: "",
+  });
+
+  const { name, email, budget, timeframe, projectDescription } = formData;
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch(
+        "https://v1.nocodeapi.com/0xsahilx/google_sheets/MqCFEwhhqxfxMsPG?tabId=Sheet1",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify([
+            [
+              name,
+              email,
+              budget,
+              timeframe,
+              projectDescription,
+              new Date().toLocaleString(),
+            ],
+          ]),
+        }
+      );
+
+      // You can handle the response here if needed
+      // console.log(response);
+      await response.json();
+      setFormData({
+        ...formData,
+        name: "",
+        email: "",
+        budget: "",
+        timeframe: "",
+        projectDescription: "",
+      });
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
   return (
     <>
       <section className="contact bg-top">
@@ -66,32 +119,60 @@ const Contact = () => {
                 proposal.{" "}
               </p>
 
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="grid-2">
                   <div className="inputs">
                     <span>Name</span>
-                    <input type="text" />
+                    <input
+                      type="text"
+                      name="name"
+                      value={name}
+                      onChange={handleChange}
+                    />
                   </div>
                   <div className="inputs">
                     <span>Email</span>
-                    <input type="text" />
+                    <input
+                      type="text"
+                      name="email"
+                      value={email}
+                      onChange={handleChange}
+                    />
                   </div>
                 </div>
                 <div className="grid-2">
                   <div className="inputs">
-                    <span>your budget</span>
-                    <input type="text" />
+                    <span>Your Budget</span>
+                    <input
+                      type="text"
+                      name="budget"
+                      value={budget}
+                      onChange={handleChange}
+                    />
                   </div>
                   <div className="inputs">
-                    <span>timeframe</span>
-                    <input type="text" />
+                    <span>Timeframe</span>
+                    <input
+                      type="text"
+                      name="timeframe"
+                      value={timeframe}
+                      onChange={handleChange}
+                    />
                   </div>
                 </div>
                 <div className="inputs">
-                  <span>TELL US A BIT ABOUT YOUR PROJECT*</span>
-                  <textarea cols="30" rows="10"></textarea>
+                  <span>Tell Us About Your Project*</span>
+                  <textarea
+                    cols="30"
+                    rows="10"
+                    name="projectDescription"
+                    value={projectDescription}
+                    onChange={handleChange}
+                  ></textarea>
                 </div>
-                <button className="button-primary">Submit</button>
+                <button type="submit" className="button-primary">
+                  Submit
+                </button>
               </form>
             </div>
           </div>
