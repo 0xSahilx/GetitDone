@@ -22,9 +22,18 @@ const Agency = () => {
             <div className="left w-60 py">
               <TitleSm title="Turning your business ideas into smart digital products since 2001" />
               <p className="desc-p">
-              Getitdone has been at the forefront of transforming businesses into digital success stories over the past few years. Our journey involves collaborating with diverse businesses across multiple domains, making us incredibly versatile and well-versed in various fields. The dynamic experiences gained from working with a wide range of clients have molded us into a team that adapts to the unique needs of every business. From boosting online presence to cultivating thriving audiences, our interactive approach has garnered success stories across industries
+                Getitdone has been at the forefront of transforming businesses
+                into digital success stories over the past few years. Our
+                journey involves collaborating with diverse businesses across
+                multiple domains, making us incredibly versatile and well-versed
+                in various fields. The dynamic experiences gained from working
+                with a wide range of clients have molded us into a team that
+                adapts to the unique needs of every business. From boosting
+                online presence to cultivating thriving audiences, our
+                interactive approach has garnered success stories across
+                industries
               </p>
-              <div className="grid-3">
+              <div className="grid-2">
                 <div className="box">
                   <h1 className="indigo">10+</h1>
                   <h3>Years of experience</h3>
@@ -64,7 +73,12 @@ const Agency = () => {
               <TitleSm title="Our mission" />
               <br />
               <p className="misson-p">
-              We aspire to be the catalyst that transforms visions into digital realities, helping brands connect meaningfully with their audiences. Our commitment extends beyond mere services; we envision a digital landscape where innovation, creativity, and technology converge seamlessly to elevate every business we touch
+                We aspire to be the catalyst that transforms visions into
+                digital realities, helping brands connect meaningfully with
+                their audiences. Our commitment extends beyond mere services; we
+                envision a digital landscape where innovation, creativity, and
+                technology converge seamlessly to elevate every business we
+                touch
               </p>
             </div>
           </div>
