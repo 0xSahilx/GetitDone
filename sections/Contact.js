@@ -15,11 +15,11 @@ const Contact = () => {
     name: "",
     email: "",
     budget: "",
-    timeframe: "",
+    phoneno: "",
     projectDescription: "",
   });
 
-  const { name, email, budget, timeframe, projectDescription } = formData;
+  const { name, email, budget, phoneno, projectDescription } = formData;
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -40,7 +40,7 @@ const Contact = () => {
               name,
               email,
               budget,
-              timeframe,
+              phoneno,
               projectDescription,
               new Date().toLocaleString(),
             ],
@@ -56,7 +56,7 @@ const Contact = () => {
         name: "",
         email: "",
         budget: "",
-        timeframe: "",
+        phoneno: "",
         projectDescription: "",
       });
     } catch (err) {
@@ -151,11 +151,11 @@ const Contact = () => {
                     />
                   </div>
                   <div className="inputs">
-                    <span>Timeframe</span>
+                    <span>Mobile no.</span>
                     <input
                       type="text"
-                      name="timeframe"
-                      value={timeframe}
+                      name="phoneno"
+                      value={phoneno}
                       onChange={handleChange}
                     />
                   </div>
