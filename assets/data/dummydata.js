@@ -128,7 +128,7 @@ export const showcase = [
     title: "Portfolio",
     cover: "/images/pf.png",
     catgeory: "Website",
-    url: "https://shanzal-sidhiqui.vercel.app/",
+    url: "https://shahil-aryan-singh.vercel.app/",
   },
   {
     id: 5,
