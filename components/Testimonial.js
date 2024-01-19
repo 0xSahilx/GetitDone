@@ -80,9 +80,16 @@ const Testimonial = () => {
                   </div>
                   <div className="details">
                     <p>{user.desc}</p>
-                    <Link href="/#">
-                      VIEW CASE <HiOutlineArrowRight className="link-icon" />
-                    </Link>
+                    {user.url ? (
+                      <Link href={user.url}>
+                        <div>
+                          VIEW CASE{" "}
+                          <HiOutlineArrowRight className="link-icon" />
+                        </div>
+                      </Link>
+                    ) : (
+                      <p>VIEW CASE</p>
+                    )}
                   </div>
                 </div>
               ))}

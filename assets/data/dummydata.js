@@ -79,13 +79,15 @@ export const testimonial = [
     cover: "qk1.svg",
     post: "Quikart - CEO",
     desc: "Working with Getitdone has been a game-changer for Quikart. Being the Founder and CEO, I've witnessed firsthand their exceptional commitment to helping us establish a robust online presence. From crafting a visually stunning website to implementing effective social media strategies, Getitdone showcased a level of credibility and professionalism that stood out.",
+    url: "https://stag-ex-splash.vercel.app/",
   },
   {
     id: 2,
-    name: "Ajay",
+    name: "Shikher Shrivastav",
     cover: "/images/ss.png",
     post: "StageSplash - Founder & CEO",
     desc: "I appreciate the dedication and flexibility Getidone brought to the table. Getitdone not only delivered a dynamic and visually compelling website for StageSplash but also proved to be exceptionally adaptable throughout the process. Their team's ability to understand our unique needs and translate them into an engaging online platform was impressive",
+    url: "https://stag-ex-splash.vercel.app/",
   },
   {
     id: 3,
@@ -93,6 +95,7 @@ export const testimonial = [
     cover: "/images/e3.jpg",
     post: "Seven consulting - CEO",
     desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    url: "https://stag-ex-splash.vercel.app/",
   },
   {
     id: 4,
@@ -100,6 +103,7 @@ export const testimonial = [
     cover: "/images/e4.jpg",
     post: "Seven Arts - marketing manager",
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    url: "https://stag-ex-splash.vercel.app/",
   },
 ];
 
@@ -108,7 +112,7 @@ export const showcase = [
     id: 1,
     title: "E-cell IIT Patna",
     cover: "/images/ec.png",
-    width: "50%",
+    // width: "50%",
     url: "https://ecell-beta.vercel.app/",
 
     catgeory: "DIGITAL MARKETING",
