@@ -79,11 +79,11 @@ export const expertise = [
 export const testimonial = [
   {
     id: 1,
-    name: "Adhvet Sharma",
-    cover: "qk1.svg",
-    post: "Quikart - CEO",
-    desc: "Working with Getitdone has been a game-changer for Quikart. Being the Founder and CEO, I've witnessed firsthand their exceptional commitment to helping us establish a robust online presence. From crafting a visually stunning website to implementing effective social media strategies, Getitdone showcased a level of credibility and professionalism that stood out.",
-    url: "https://stag-ex-splash.vercel.app/",
+    name: "IET lucknow",
+    cover: "/images/iet.jpeg",
+    post: "HackXLR8",
+    desc: "Working with Getitdone has been a game-changer for the college.We got to witness thier firsthand exceptional commitment to helping us establish a robust online presence. From crafting a visually stunning website to implementing effective social media strategies, Getitdone showcased a level of credibility and professionalism that stood out.",
+    url: "https://hackathon-new-git-master-breezejod.vercel.app/services",
   },
   {
     id: 2,
@@ -93,22 +93,7 @@ export const testimonial = [
     desc: "I appreciate the dedication and flexibility Getidone brought to the table. Getitdone not only delivered a dynamic and visually compelling website for StageSplash but also proved to be exceptionally adaptable throughout the process. Their team's ability to understand our unique needs and translate them into an engaging online platform was impressive",
     url: "https://stag-ex-splash.vercel.app/",
   },
-  {
-    id: 3,
-    name: "Alexander Black",
-    cover: "/images/e3.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
-    url: "https://stag-ex-splash.vercel.app/",
-  },
-  {
-    id: 4,
-    name: "Diana Green",
-    cover: "/images/e4.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
-    url: "https://stag-ex-splash.vercel.app/",
-  },
+  
 ];
 
 export const showcase = [
@@ -190,7 +175,7 @@ export const blogdata = [
   {
     id: 1,
     title: "Becoming a SEO analyst.",
-    cover: "/images/seo.jpeg",
+    cover: "/images/digital.jpeg",
     catgeory: "INDUSTRY",
     date: "JANUARY 12, 2023",
     content: `
@@ -243,7 +228,7 @@ export const blogdata = [
   {
     id: 2,
     title: "Indian consumers are spending 52% of their time on open internet.",
-    cover: "/images/52percent.cms",
+    cover: "/images/internet.jpeg",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 20, 2023",
     content: `
@@ -284,6 +269,27 @@ export const blogdata = [
 export const teamdata = [
   {
     id: 1,
+    title: "Shanzal",
+    cover: "/images/F45D975A-4821-4116-BD7D-0250D6B78565_1_201_a.jpeg",
+    post: "Co-Founder",
+    url: "https://www.linkedin.com/in/shanzal-siddiqui-17a25b24a/",
+  },
+  {
+    id: 2,
+    title: "Shahil Aryan Singh",
+    cover: "/images/IMG_20240118_221552.jpg",
+    post: "Co-Founder",
+    url: "https://www.linkedin.com/in/sahil-aryan-singh/",
+  },
+  {
+    id: 3,
+    title: "Shambhavi",
+    cover: "/images/IMG-20240118-WA0010.jpg",
+    post: "Marketing Head",
+    url: "https://www.linkedin.com/in/shambhvi-shakya-bb965728a/",
+  },
+  {
+    id: 1,
     title: "Kanahia",
     cover: "/images/ka.jpeg",
     post: "Web and App Developer",
@@ -301,7 +307,7 @@ export const teamdata = [
     title: "Kunjal Singh",
     cover: "/images/k.jpeg",
     post: "UI/UX expert",
-    url: "",
+    url: "https://breezy-bottle-3cf.notion.site/Design-Portfolio-e406406b4d104d54a46ec4c88290fc41?pvs=4",
   },
   {
     id: 4,
@@ -317,27 +323,8 @@ export const teamdata = [
     post: "Web Designer",
     url: "https://www.linkedin.com/in/shuchi-saxena-9539b8284/",
   },
-  {
-    id: 6,
-    title: "Sahil",
-    cover: "/images/t6.jpg",
-    post: "Web Developer",
-    url: "",
-  },
-  {
-    id: 7,
-    title: "Shanzal",
-    cover: "/images/t7.jpg",
-    post: "PROJECT MANAGER",
-    url: "",
-  },
-  {
-    id: 8,
-    title: "shambhvi",
-    cover: "/images/t7.jpg",
-    post: "PROJECT MANAGER",
-    url: "",
-  },
+ 
+  
   {
     id: 9,
     title: "Join our team!",
