@@ -81,7 +81,7 @@ const Testimonial = () => {
                   <div className="details">
                     <p>{user.desc}</p>
                     {user.url ? (
-                      <Link href={user.url}>
+                      <Link target="_blank" href={user.url}>
                         <div>
                           VIEW CASE{" "}
                           <HiOutlineArrowRight className="link-icon" />

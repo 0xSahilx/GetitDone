@@ -23,7 +23,7 @@ export const Card = ({ data, caption, show, path }) => {
             <TitleSm title={data.title} />
           </Link>
           {caption && (
-            <Link href={websiteUrl} passHref>
+            <Link target="_blank" href={websiteUrl} passHref>
               {caption} <HiOutlineArrowRight className="link-icon" />
             </Link>
           )}
