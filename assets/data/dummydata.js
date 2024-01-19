@@ -37,6 +37,7 @@ export const expertise = [
       { text: "Hosting" },
       { text: "Website audit" },
     ],
+    url: "https://stag-ex-splash.vercel.app/",
   },
   {
     id: 2,
@@ -48,6 +49,7 @@ export const expertise = [
       { text: "Markting management" },
       { text: "SEO" },
     ],
+    url: "https://stag-ex-splash.vercel.app/",
   },
   {
     id: 3,
@@ -59,6 +61,7 @@ export const expertise = [
       { text: "Content management" },
       { text: "Merch Designing" },
     ],
+    url: "https://stag-ex-splash.vercel.app/",
   },
   {
     id: 4,
@@ -70,6 +73,7 @@ export const expertise = [
       { text: "Custom illustrations" },
       { text: "Online presence on platforms like Linkedin, Instagram, etc." },
     ],
+    url: "https://stag-ex-splash.vercel.app/",
   },
 ];
 export const testimonial = [

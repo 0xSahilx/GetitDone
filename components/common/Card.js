@@ -19,7 +19,7 @@ export const Card = ({ data, caption, show, path }) => {
           />
         </div>
         <div className="card-details">
-          <Link href={websiteUrl} passHref>
+          <Link target="_blank" href={websiteUrl} passHref>
             <TitleSm title={data.title} />
           </Link>
           {caption && (
