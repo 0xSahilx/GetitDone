@@ -13,9 +13,8 @@ export const Card = ({ data, caption, show, path }) => {
           <Image
             src={data.cover}
             alt={data.title}
-            width={100}
-            height={100}
-            quality={80}
+            width={1400}
+            height={1400}
           />
         </div>
         <div className="card-details">
