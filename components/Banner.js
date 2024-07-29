@@ -12,7 +12,7 @@ const Banner = () => {
             <TitleLogo title="Lets take your business to the next level!" />
           </div>
           <div>
-            <a href="https://wa.me/7985179107">
+            <a href="https://wa.me/7897664959">
               <button className="button-primary">Request a call-back</button>
             </a>
           </div>
