@@ -79,72 +79,38 @@ export const expertise = [
 export const testimonial = [
   {
     id: 1,
-    name: "IET lucknow",
-    cover: "/images/iet.jpeg",
-    post: "HackXLR8",
-    desc: "Working with Getitdone has been a game-changer for the college.We got to witness thier firsthand exceptional commitment to helping us establish a robust online presence. From crafting a visually stunning website to implementing effective social media strategies, Getitdone showcased a level of credibility and professionalism that stood out.",
-    url: "https://hackathon-new-git-master-breezejod.vercel.app/services",
-  },
-  {
-    id: 2,
     name: "Shikher Shrivastav",
     cover: "/images/ss.png",
     post: "StageSplash - Founder & CEO",
     desc: "I appreciate the dedication and flexibility Getidone brought to the table. Getitdone not only delivered a dynamic and visually compelling website for StageSplash but also proved to be exceptionally adaptable throughout the process. Their team's ability to understand our unique needs and translate them into an engaging online platform was impressive",
     url: "https://stag-ex-splash.vercel.app/",
   },
-  
 ];
 
 export const showcase = [
   {
     id: 1,
     title: "E-cell IIT Patna",
-    cover: "/images/ec.png",
-    // width: "50%",
-    url: "https://ecell-beta.vercel.app/",
-
-    catgeory: "DIGITAL MARKETING",
+    videoId: "fbpgYxqEJPs", // The YouTube video ID
+    category: "DIGITAL MARKETING",
+    url: "https://www.youtube.com/watch?v=fbpgYxqEJPs", // Full URL for link
   },
-
   {
     id: 2,
     title: "Anwesha IITP",
-    catgeory: "WEBSITES",
-    url: "https://anweshaaa.vercel.app/",
-
-    cover: "/images/an.png",
+    videoId: "eMplIjZ80Zs", // Replace with a real YouTube video ID
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=eMplIjZ80Zs",
   },
   {
     id: 3,
     title: "Njack IITP",
-    cover: "/images/nk.png",
-    url: "https://njackwebsite.vercel.app/",
-
-    catgeory: "WEBSITES",
-  },
-  {
-    id: 4,
-    title: "Portfolio",
-    cover: "/images/pf.png",
-    catgeory: "Website",
-    url: "https://shahil-aryan-singh.vercel.app/",
-  },
-  {
-    id: 5,
-    title: "Merch Designing",
-    cover: "/images/design1.png",
-    catgeory: "Ui/UX",
-    url: "https://www.instagram.com/p/CyytHbWy6Uu/?igshid=MTc4MmM1YmI2Ng==",
-  },
-  {
-    id: 6,
-    title: "VR Experience",
-    cover: "/images/photu2.png",
-    catgeory: "Design",
-    url: "https://dmahez.gmetri.com/xr_experience",
+    videoId: "gqUQbjsYZLQ",
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=gqUQbjsYZLQ",
   },
 ];
+
 export const brand = [
   {
     id: 1,
@@ -323,8 +289,7 @@ export const teamdata = [
     post: "Web Designer",
     url: "https://www.linkedin.com/in/shuchi-saxena-9539b8284/",
   },
- 
-  
+
   {
     id: 9,
     title: "Join our team!",
