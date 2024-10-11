@@ -111,6 +111,222 @@ export const showcase = [
   },
 ];
 
+export const longform = [
+  {
+    id: 1,
+    title: "E-cell IIT Patna",
+    videoId: "fbpgYxqEJPs", // The YouTube video ID
+    category: "DIGITAL MARKETING",
+    url: "https://www.youtube.com/watch?v=fbpgYxqEJPs", // Full URL for link
+  },
+  {
+    id: 2,
+    title: "Anwesha IITP",
+    videoId: "eMplIjZ80Zs", // Replace with a real YouTube video ID
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=eMplIjZ80Zs",
+  },
+  {
+    id: 3,
+    title: "Njack IITP",
+    videoId: "gqUQbjsYZLQ",
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=gqUQbjsYZLQ",
+  },
+];
+
+export const ImanGadzi = [
+  {
+    id: 1,
+    title: "E-cell IIT Patna",
+    videoId: "fbpgYxqEJPs", // The YouTube video ID
+    category: "DIGITAL MARKETING",
+    url: "https://www.youtube.com/watch?v=fbpgYxqEJPs", // Full URL for link
+  },
+  {
+    id: 2,
+    title: "Anwesha IITP",
+    videoId: "eMplIjZ80Zs", // Replace with a real YouTube video ID
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=eMplIjZ80Zs",
+  },
+  {
+    id: 3,
+    title: "Njack IITP",
+    videoId: "gqUQbjsYZLQ",
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=gqUQbjsYZLQ",
+  },
+];
+
+export const Anime = [
+  {
+    id: 1,
+    title: "E-cell IIT Patna",
+    videoId: "fbpgYxqEJPs", // The YouTube video ID
+    category: "DIGITAL MARKETING",
+    url: "https://www.youtube.com/watch?v=fbpgYxqEJPs", // Full URL for link
+  },
+  {
+    id: 2,
+    title: "Anwesha IITP",
+    videoId: "eMplIjZ80Zs", // Replace with a real YouTube video ID
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=eMplIjZ80Zs",
+  },
+  {
+    id: 3,
+    title: "Njack IITP",
+    videoId: "gqUQbjsYZLQ",
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=gqUQbjsYZLQ",
+  },
+];
+
+export const FastEdits = [
+  {
+    id: 1,
+    title: "E-cell IIT Patna",
+    videoId: "fbpgYxqEJPs", // The YouTube video ID
+    category: "DIGITAL MARKETING",
+    url: "https://www.youtube.com/watch?v=fbpgYxqEJPs", // Full URL for link
+  },
+  {
+    id: 2,
+    title: "Anwesha IITP",
+    videoId: "eMplIjZ80Zs", // Replace with a real YouTube video ID
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=eMplIjZ80Zs",
+  },
+  {
+    id: 3,
+    title: "Njack IITP",
+    videoId: "gqUQbjsYZLQ",
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=gqUQbjsYZLQ",
+  },
+];
+
+export const ShortForm = [
+  {
+    id: 1,
+    title: "E-cell IIT Patna",
+    videoId: "fbpgYxqEJPs", // The YouTube video ID
+    category: "DIGITAL MARKETING",
+    url: "https://www.youtube.com/watch?v=fbpgYxqEJPs", // Full URL for link
+  },
+  {
+    id: 2,
+    title: "Anwesha IITP",
+    videoId: "eMplIjZ80Zs", // Replace with a real YouTube video ID
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=eMplIjZ80Zs",
+  },
+  {
+    id: 3,
+    title: "Njack IITP",
+    videoId: "gqUQbjsYZLQ",
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=gqUQbjsYZLQ",
+  },
+];
+
+export const Advertisement = [
+  {
+    id: 1,
+    title: "E-cell IIT Patna",
+    videoId: "fbpgYxqEJPs", // The YouTube video ID
+    category: "DIGITAL MARKETING",
+    url: "https://www.youtube.com/watch?v=fbpgYxqEJPs", // Full URL for link
+  },
+  {
+    id: 2,
+    title: "Anwesha IITP",
+    videoId: "eMplIjZ80Zs", // Replace with a real YouTube video ID
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=eMplIjZ80Zs",
+  },
+  {
+    id: 3,
+    title: "Njack IITP",
+    videoId: "gqUQbjsYZLQ",
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=gqUQbjsYZLQ",
+  },
+];
+
+export const Animation = [
+  {
+    id: 1,
+    title: "E-cell IIT Patna",
+    videoId: "fbpgYxqEJPs", // The YouTube video ID
+    category: "DIGITAL MARKETING",
+    url: "https://www.youtube.com/watch?v=fbpgYxqEJPs", // Full URL for link
+  },
+  {
+    id: 2,
+    title: "Anwesha IITP",
+    videoId: "eMplIjZ80Zs", // Replace with a real YouTube video ID
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=eMplIjZ80Zs",
+  },
+  {
+    id: 3,
+    title: "Njack IITP",
+    videoId: "gqUQbjsYZLQ",
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=gqUQbjsYZLQ",
+  },
+];
+
+export const VFX = [
+  {
+    id: 1,
+    title: "E-cell IIT Patna",
+    videoId: "fbpgYxqEJPs", // The YouTube video ID
+    category: "DIGITAL MARKETING",
+    url: "https://www.youtube.com/watch?v=fbpgYxqEJPs", // Full URL for link
+  },
+  {
+    id: 2,
+    title: "Anwesha IITP",
+    videoId: "eMplIjZ80Zs", // Replace with a real YouTube video ID
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=eMplIjZ80Zs",
+  },
+  {
+    id: 3,
+    title: "Njack IITP",
+    videoId: "gqUQbjsYZLQ",
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=gqUQbjsYZLQ",
+  },
+];
+
+export const Faceless = [
+  {
+    id: 1,
+    title: "E-cell IIT Patna",
+    videoId: "fbpgYxqEJPs", // The YouTube video ID
+    category: "DIGITAL MARKETING",
+    url: "https://www.youtube.com/watch?v=fbpgYxqEJPs", // Full URL for link
+  },
+  {
+    id: 2,
+    title: "Anwesha IITP",
+    videoId: "eMplIjZ80Zs", // Replace with a real YouTube video ID
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=eMplIjZ80Zs",
+  },
+  {
+    id: 3,
+    title: "Njack IITP",
+    videoId: "gqUQbjsYZLQ",
+    category: "WEBSITES",
+    url: "https://www.youtube.com/watch?v=gqUQbjsYZLQ",
+  },
+];
+
 export const brand = [
   {
     id: 1,

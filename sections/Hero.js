@@ -40,9 +40,10 @@ const Hero = () => {
         </div>
       </section>
       <Expertise />
+      <ShowCase />
       <Banner />
       <Testimonial />
-      {/* <ShowCase /> */}
+
       <Brand />
 
       <div className="text-center">
