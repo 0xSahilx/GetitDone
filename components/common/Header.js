@@ -32,11 +32,29 @@ const Header = () => {
             >
               Home
             </Link>
-            <Link
+            {/* <Link
               href="/agency"
               className={activeLink == "/agency" ? "activeLink" : "none"}
             >
               Agency
+            </Link> */}
+            <Link
+              href="/showcase"
+              className={activeLink == "/showcase" ? "activeLink" : "none"}
+            >
+              Edits
+            </Link>
+            <Link
+              href="/three"
+              className={activeLink == "/three" ? "activeLink" : "none"}
+            >
+              3d Edits
+            </Link>
+            <Link
+              href="/website"
+              className={activeLink == "/website" ? "activeLink" : "none"}
+            >
+              Websites
             </Link>
             {/* <Link
               href="/team"
@@ -44,24 +62,24 @@ const Header = () => {
             >
               Team
             </Link> */}
-            <Link
+            {/* <Link
               href="/services"
               className={activeLink == "/services" ? "activeLink" : "none"}
             >
               Services
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href="/showcase"
               className={activeLink == "/showcase" ? "activeLink" : "none"}
             >
               Showcase
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href="/blogs"
               className={activeLink == "/blogs" ? "activeLink" : "none"}
             >
               Blog
-            </Link>
+            </Link> */}
             <Link
               href="/contact"
               className={activeLink == "/contact" ? "activeLink" : "none"}

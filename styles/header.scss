@@ -9,7 +9,7 @@ header {
     @include flex(center, space-between, none);
     nav {
       a {
-        margin: 0 $xl-2;
+        margin: 0 $xl;
       }
     }
   }

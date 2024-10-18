@@ -40,7 +40,7 @@ const Hero = () => {
         </div>
       </section>
       <Expertise />
-      <ShowCase />
+      {/* <ShowCase /> */}
       <Banner />
       <Testimonial />
 

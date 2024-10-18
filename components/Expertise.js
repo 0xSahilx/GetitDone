@@ -10,7 +10,7 @@ const Expertise = () => {
         <div className="container">
           <div className="heading-title">
             <Title title="Our expertise" />
-            <p>
+            <p className="">
               Our diverse expertise is dedicated to making a lasting impact on
               your audience.
             </p>

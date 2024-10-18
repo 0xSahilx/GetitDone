@@ -36,7 +36,7 @@ const Testimonial = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -59,7 +59,7 @@ const Testimonial = () => {
           <div className="heading-title">
             <TitleSm title="WHAT CLIENTS SAY ABOUT OUR WORK" />
           </div>
-          <div className="cards">
+          <div className="cards ">
             <Slider {...settings}>
               {testimonial.map((user, index) => (
                 <div key={index} className="card">

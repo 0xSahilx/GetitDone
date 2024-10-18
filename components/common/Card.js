@@ -10,12 +10,7 @@ export const Card = ({ data, caption, show, path }) => {
     <>
       <div className="card">
         <div className="card-img">
-          <Image
-            src={data.cover}
-            alt={data.title}
-            width={1400}
-            height={1400}
-          />
+          <Image src={data.cover} alt={data.title} width={1400} height={1400} />
         </div>
         <div className="card-details">
           <Link target="_blank" href={websiteUrl} passHref>
